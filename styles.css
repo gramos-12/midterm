@@ -84,23 +84,108 @@ margin: 30px 20px 30px 20px;
 #aboutus-page {
     margin: 0px 0px 0px 200px;
 }
-.right h1 {
-  margin: 0px 0px 0px 140px;
+#under_construction {
+  color: red;
 }
-.text1{
-  background-color: lemonchiffon;
+#home-p {
+  border: 2px solid black;
+  border-radius: 10px;
   color: black;
   font-size:20px;
   font-style: italic;  
-  padding: 10px 0px 50px 20px;
+  padding: 5px 0px 5px 20px;
   margin: 20px 0px 0px 0px;
   width: 100%;
 }
-.right img {
-  margin-top: 40px;
+#recipes-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+#Hol_Seasons-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+#HealthyFoods-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 35px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+#aboutus-p {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  font-size:20px;
+  font-style: italic;  
+  padding: 10px 0px 40px 20px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+.right h1 {
+  margin: 0px 0px 0px 140px;
+}
+#home-rt-img {
+display:flex;
+width: 100%;
+}
+  #home-rt-img  img{
+    width: 100%;
+    height: 300px;
+    margin-top: 45px;
+  }
+  #Recipes-rt-img {
+    display:flex;
+    width: 100%;
+  }
+  #Recipes-rt-img img {
+    width: 100%;
+    height: 300px;
+    margin-top: 115px;
+  }
+  #hol_seasons-rt-img {
+    display:flex;
+    width: 100%;
+  }
+#hol_seasons-rt-img img {
+  width: 100%;
+    height: 300px;
+    margin-top: 120px;
+}
+#healthy_foods-rt-img {
+  display:flex;
+    width: 100%;
+}
+#healthy_foods-rt-img img {
+  width: 100%;
+    height: 300px;
+    margin-top: 120px;
+}
+#aboutus-rt-img {
+  display:flex;
+    width: 100%;
+}
+#aboutus-rt-img img {
   width: 100%;
   height: 300px;
-  }
+  margin-top: 50px;
+}
+
   footer {
     color:black;
     margin: auto;
