@@ -1,0 +1,335 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 10px;
+}
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.logo img {
+  height:100px;
+  padding: 0;
+ 
+}
+h3 {
+  font-size: 22px;
+  position: relative;
+  left: 15px;
+  top: 20%;
+}
+nav {
+  position:relative;
+  left: 100px;
+  top: 50px;
+}
+ul {
+  text-align: center;
+}
+#no_1:hover, #no_2:hover, #no_3:hover, #no_4:hover, #no_5:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+li {
+  align-content: bottom;
+  display: inline-block;
+  font-size: 20px;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid black;
+}
+.active {
+  background-color:rgb(237, 204, 161);
+}
+.top_img {
+  display: flex;
+  margin:auto;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.main h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.par1 {
+  font-size: 24px;
+  padding: 50px 200px 50px 200px;
+  margin:auto;
+  width: 100%;
+}
+.main h2 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+.main {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.h_bev, .cold_bev, .frapps, .teas, .s_moothies, .sandwiches, .cof_beans, .leaf_teas {
+  width: 200px;
+  height: 240px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  overflow: hidden;
+  margin-right: 20px;
+}
+div.h_bev_:hover, div.cold_bev:hover, div.frapps:hover, div.teas:hover, div.s_moothies:hover, div.sandwiches:hover, div.cof_beans:hover, div.leaf_teas:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+figcaption {
+  text-align: center;
+}
+.group1 {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+}
+.group2 {
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+}  
+footer {
+  width: 100%;
+  height:auto;
+  background-color:rgb(237, 204, 161);
+  display:flex;
+  justify-content:space-around;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.logo_footer img {
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  height:140px;
+  padding: 0;
+}
+/*TLC Coffee & Tea header*/
+.hd3_2 {
+ font-weight: lighter;
+ font-size: 22px;
+ flex-grow: 1;
+ margin-top: 60px;
+ margin-right: 50px;
+}
+.address_info { /*VISIT US Address section*/
+  flex-grow: 2;
+}
+.hd5_5 { /*VISIT US Address header*/
+  font-weight:bolder;
+  font-size: 22px;
+  width: 140px;
+  height: 40px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin-right: 10px;
+}
+  address { /*Visit Us Address*/
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size: 22px;
+  font-style: normal;
+}
+.connect_info { /*CONNECT Info section*/
+  flex-grow: 2;
+}
+.hd4_3 { /*CONNECT Info header*/
+  font-weight:bolder;
+  font-size: 22px;
+  width: 140px;
+  height: 40px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.parg1_3 { /*Connect Info*/
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size: 22px;
+  font-style: normal;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: auto;
+}
+.main_menu {
+  margin-top: 50px;
+}
+#hb {
+  margin:auto;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid black;
+  margin-bottom: 1000px;
+}
+#cb {
+  margin:auto;
+  margin-bottom: 400px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .logo{
+    margin-left: 0;
+  }
+  nav {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    margin:auto;
+  }
+  .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .sandwiches, .cof_beans, .leaf_teas{
+  margin-right: 10px;
+  }
+  .group1, .group2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .par1 {
+  font-size: 22px;
+  margin:20px;
+  padding:0;
+  width: auto;
+  }
+  .main {
+  width: 90%;
+  height: auto;
+  margin: auto;
+ padding-top: 60px;
+ padding-bottom: 20px;
+}
+footer {
+  width: 100%;
+  height:auto;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.address_info {
+  height: auto;
+  width: auto;
+}
+.hd5_5 { /*VISIT US header*/
+ width: auto; 
+}
+.connect_info {
+  height: auto;
+  width: auto;
+}
+.hd4_3 { /*VISIT US header*/
+ width: auto; 
+}
+}
+
+@media screen and (max-width: 800px) {
+
+  header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logo{
+    margin-left: 30%;
+  }
+ header.logo{
+  width: 25%;
+  
+  }
+  header h3 {
+  width: 35%;
+  left: 0;
+  top:0;
+  margin: 0;
+  padding: 0;
+  }
+  /* Menu Item SecNavigation */
+  .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .sandwiches, .cof_beans, .leaf_teas{
+  width: 50%;
+  margin-bottom: 10px;
+  }
+.group1, .group2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+  .par1 {
+  font-size: 20px;
+  margin:20px;
+  padding:0;
+  width: auto;
+}
+li {
+  display: block;
+  height:38px;
+  width: auto;
+  font-size: 26px;
+  font-weight: bold;
+  line-height:em;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: none;
+}
+.main h1{
+  font-size: 28px;
+}
+footer {
+display: block;
+text-align: center;
+}
+.logo_footer img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*TLC Coffee & Tea header*/
+.hd3_2 {
+  margin-top: 0;
+  margin-left: 0;
+
+}
+footer h3{
+  left:0;
+}
+.hd5_5 { /*VISIT US header*/
+ margin-top: 20px;
+ font-size: 26px;
+ text-decoration: underline;
+}
+.hd4_3 { /*CONNECT Info header*/
+ margin-top: 20px;
+ font-size: 26px;
+ text-decoration: underline;
+}
+}
